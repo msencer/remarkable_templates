@@ -1,3 +1,4 @@
 .DS_Store
-templates.*.json
+templates.json
+templates.merged.json
 

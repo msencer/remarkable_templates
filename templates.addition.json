@@ -1,0 +1,41 @@
+{
+    "templates":
+[
+    {
+      "name": "Daily Planner",
+      "filename": "daily_planner",
+      "iconCode": "\ue9da",
+      "categories": [
+        "Life/organize",
+        "Custom"
+      ]
+    },
+    {
+      "name": "Weekly Planner",
+      "filename": "weekly_planner",
+      "iconCode": "\ue997",
+      "categories": [
+        "Life/organize",
+        "Custom"
+      ]
+    },
+    {
+      "name": "Journal",
+      "filename": "journal",
+      "iconCode": "\ue991",
+      "categories": [
+        "Life/organize",
+        "Custom"
+      ]
+    },
+    {
+      "name": "1:1 / Meeting Notes",
+      "filename": "meeting_notes",
+      "iconCode": "\ue9d8",
+      "categories": [
+        "Life/organize",
+        "Custom"
+      ]
+    }
+]
+}
