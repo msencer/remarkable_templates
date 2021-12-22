@@ -32,7 +32,16 @@ Please follow [this guide](https://remarkablewiki.com/tech/ssh) to setup the SSH
 
 ```$ ssh rem```
 
-If the connection is successful, please run the install script:
+For the json merge operation, we'd need [jq](https://github.com/stedolan/jq) in the PATH.
+
+```
+$ brew install jq
+...
+$ which jq
+/opt/homebrew/bin/jq
+```
+
+If the connection is successful & jq is in the path, please run the install script:
 
 ```
 $ ./install.sh
