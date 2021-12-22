@@ -1,6 +1,6 @@
 # Remarkable 2 templates
 
-The templates are built using [NoTeTo](https://noteto.needleinthehay.de/) template builder. If you'd like to change, use the *Load from JSON* option on the tool, make your changes on the GUI and don't forget to save the JSON.
+The templates are built using [NoTeTo](https://noteto.needleinthehay.de/) template builder. If you'd like to change, use the *Load from JSON* option on the tool, select the template you'd like to change from ```templates/```, make your changes on the GUI and don't forget to save the JSON.
 
 ## Daily journal
 ![](journal.png)
@@ -28,4 +28,20 @@ Every Sunday, I reflect on the past week and plan for the upcoming week.
 
 ## How to install the templates on Remarkable
 
-Please follow [this guide](https://remarkablewiki.com/tips/templates) to upload and use the templates on your own device.
+Please follow [this guide](https://remarkablewiki.com/tech/ssh) to setup the SSH access to your device. The install script uses the same config. Once you are done with the config test:
+
+```$ ssh rem```
+
+If the connection is successful, please run the install script:
+
+```
+$ ./install.sh
+
+daily_planner.png                                          100%  150KB   1.3MB/s   00:00
+journal.png                                                100%   66KB   1.2MB/s   00:00
+weekly_planner.png                                         100%  117KB   1.8MB/s   00:00
+meeting_notes.png                                          100%   78KB   1.4MB/s   00:00
+templates.json                                             100%   13KB 941.0KB/s   00:00
+templates.merged.json                                      100%   14KB 849.3KB/s   00:00
+
+```
