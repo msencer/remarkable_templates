@@ -23,6 +23,9 @@ I use this template to review my daily priorities and agenda a day before. At th
 
 Every Sunday, I reflect on the past week and plan for the upcoming week.
 
+## Meeting / 1:1 notes
+![](meeting_notes.png)
+
 ## How to install the templates on Remarkable
 
 Please follow [this guide](https://remarkablewiki.com/tips/templates) to upload and use the templates on your own device.
