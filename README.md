@@ -30,7 +30,9 @@ Every Sunday, I reflect on the past week and plan for the upcoming week.
 
 Please follow [this guide](https://remarkablewiki.com/tech/ssh) to setup the SSH access to your device. The install script uses the same config. Once you are done with the config test:
 
-```$ ssh rem```
+```
+$ ssh rem
+```
 
 For the json merge operation, we'd need [jq](https://github.com/stedolan/jq) in the PATH.
 
