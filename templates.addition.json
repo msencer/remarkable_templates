@@ -36,6 +36,15 @@
         "Life/organize",
         "Custom"
       ]
+    },
+    {
+      "name": "Smart Goals",
+      "filename": "goals",
+      "iconCode": "\ue98f",
+      "categories": [
+        "Life/organize",
+        "Custom"
+      ]
     }
 ]
 }

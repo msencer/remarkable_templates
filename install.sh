@@ -1,5 +1,5 @@
 # Sending the PNG files to reMarkable
-scp daily_planner.png journal.png weekly_planner.png meeting_notes.png rem:/usr/share/remarkable/templates
+scp *.png rem:/usr/share/remarkable/templates
 # Receiving the current templates.json to add our custom templates
 scp rem:/usr/share/remarkable/templates/templates.json ./templates.json
 # Adding the custom templates to templates.json
