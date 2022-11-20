@@ -29,6 +29,11 @@ Every Sunday, I reflect on the past week and plan for the upcoming week.
 ## SMART Goals
 ![](templates/pngs/goals.png)
 
+## Good Time Journal
+![](templates/pngs/gt_journal.png)
+
+I got the inspiration from the book called ["Designing Your Life"](https://designingyour.life/the-book/). I set 8 random alarms from 10:00 to 21:30 to log the activity that I am doing. I would like to do this for 3 weeks and have a good understanding of which activities energizes me and which does not etc.
+
 ## How to install the templates on Remarkable
 
 Please follow [this guide](https://remarkablewiki.com/tech/ssh) to setup the SSH access to your device. The install script uses the same config. Once you are done with the config test:

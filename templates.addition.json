@@ -45,6 +45,15 @@
         "Life/organize",
         "Custom"
       ]
+    },
+    {
+      "name": "Good Time Journal",
+      "filename": "gt_journal",
+      "iconCode": "\ue9b2",
+      "categories": [
+        "Life/organize",
+        "Custom"
+      ]
     }
 ]
 }
