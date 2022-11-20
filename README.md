@@ -1,4 +1,4 @@
-# Remarkable 2 templates
+# My reMarkable 2 templates
 
 The templates are built using [NoTeTo](https://noteto.needleinthehay.de/) template builder. If you'd like to change, use the *Load from JSON* option on the tool, select the template you'd like to change from ```templates/noTeToConfigs/<template_name>.json```, make your changes on the GUI and don't forget to save the JSON.
 
