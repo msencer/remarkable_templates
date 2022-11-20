@@ -1,14 +1,14 @@
 # Remarkable 2 templates
 
-The templates are built using [NoTeTo](https://noteto.needleinthehay.de/) template builder. If you'd like to change, use the *Load from JSON* option on the tool, select the template you'd like to change from ```templates/```, make your changes on the GUI and don't forget to save the JSON.
+The templates are built using [NoTeTo](https://noteto.needleinthehay.de/) template builder. If you'd like to change, use the *Load from JSON* option on the tool, select the template you'd like to change from ```templates/noTeToConfigs/<template_name>.json```, make your changes on the GUI and don't forget to save the JSON.
 
 ## Daily journal
-![](journal.png)
+![](templates/pngs/journal.png)
 
 I keep daily journal every morning. I start with stating 3 gratitudes and the remaining is free-form writing. At the end I assess how I feel.
 
 ## Daily planner
-![](daily_planner.png)
+![](templates/pngs/daily_planner.png)
 
 I use this template to review my daily priorities and agenda a day before. At the end of the day, I fill in the bottom part with TIL, reflections. I compare the stars in this template with the hearts in *Daily Journal* to see if there is a discrepancy. The section with the icons are representing the behaviors that I'd like to incorporate in my life:
 
@@ -19,15 +19,15 @@ I use this template to review my daily priorities and agenda a day before. At th
 
 
 ## Weekly planner
-![](weekly_planner.png)
+![](templates/pngs/weekly_planner.png)
 
 Every Sunday, I reflect on the past week and plan for the upcoming week.
 
 ## Meeting / 1:1 notes
-![](meeting_notes.png)
+![](templates/pngs/meeting_notes.png)
 
 ## SMART Goals
-![](goals.png)
+![](templates/pngs/goals.png)
 
 ## How to install the templates on Remarkable
 
