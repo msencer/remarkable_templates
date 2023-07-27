@@ -36,7 +36,7 @@ I got the inspiration from the book called ["Designing Your Life"](https://desig
 
 ## How to install the templates on Remarkable
 
-Please follow [this guide](https://remarkablewiki.com/tech/ssh) to setup the SSH access to your device. The install script uses the same config. Once you are done with the config test:
+Please follow [this guide](https://philerb.com/2021/12/26/remarkable-tablet-ssh/) to setup the SSH access to your device. The install script uses the same config. Once you are done with the config test:
 
 ```
 $ ssh rem
