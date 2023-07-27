@@ -1,3 +1,13 @@
+[![rm1](https://img.shields.io/badge/rM1-supported-green)](https://remarkable.com/store/remarkable)
+[![rm2](https://img.shields.io/badge/rM2-supported-green)](https://remarkable.com/store/remarkable-2)
+
+[![opkg](https://img.shields.io/badge/OPKG-template--daily--planner-blue)](https://toltec-dev.org/)
+[![opkg](https://img.shields.io/badge/OPKG-template--weekly--planner-blue)](https://toltec-dev.org/)
+[![opkg](https://img.shields.io/badge/OPKG-template--journal-blue)](https://toltec-dev.org/)
+
+[![opkg](https://img.shields.io/badge/OPKG-template--meeting--notes-blue)](https://toltec-dev.org/)
+[![opkg](https://img.shields.io/badge/OPKG-template--smart--goals-blue)](https://toltec-dev.org/)
+[![opkg](https://img.shields.io/badge/OPKG-template--good--time--journal-blue)](https://toltec-dev.org/)
 # My reMarkable 2 templates
 
 The templates are built using [NoTeTo](https://noteto.needleinthehay.de/) template builder. If you'd like to change, use the *Load from JSON* option on the tool, select the template you'd like to change from ```templates/noTeToConfigs/<template_name>.json```, make your changes on the GUI and don't forget to save the JSON.
