@@ -34,12 +34,12 @@ Every Sunday, I reflect on the past week and plan for the upcoming week.
 
 I got the inspiration from the book called ["Designing Your Life"](https://designingyour.life/the-book/). I set 8 random alarms from 10:00 to 21:30 to log the activity that I am doing. I would like to do this for 3 weeks and have a good understanding of which activities energizes me and which does not etc.
 
-## How to install the templates on Remarkable
+## How to install the templates on your reMarkable
 
 Please follow [this guide](https://philerb.com/2021/12/26/remarkable-tablet-ssh/) to setup the SSH access to your device. The install script uses the same config. Once you are done with the config test:
 
 ```
-$ ssh rem
+$ ssh root@10.11.99.1
 ```
 
 For the json merge operation, we'd need [jq](https://github.com/stedolan/jq) in the PATH.
@@ -51,16 +51,9 @@ $ which jq
 /opt/homebrew/bin/jq
 ```
 
-If the connection is successful & jq is in the path, please run the install script:
+If the connection is successful & jq is in the path, please run the installation.
 
-```
-$ ./install.sh
+There are 2 installation options:
 
-daily_planner.png                                          100%  150KB   1.3MB/s   00:00
-journal.png                                                100%   66KB   1.2MB/s   00:00
-weekly_planner.png                                         100%  117KB   1.8MB/s   00:00
-meeting_notes.png                                          100%   78KB   1.4MB/s   00:00
-templates.json                                             100%   13KB 941.0KB/s   00:00
-templates.merged.json                                      100%   14KB 849.3KB/s   00:00
-
-```
+* Installing over USB connection```$ make install_usb```
+* Installing over Wifi connection ```$ make install_wifi```
