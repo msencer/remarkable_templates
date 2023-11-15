@@ -19,7 +19,7 @@ define install
 	scp root@$1:/usr/share/remarkable/templates/templates.json ./templates.json
 
 	# Adding the custom templates to templates.json
-	jq -n '{ templates: [ inputs.templates ] | add | unique_by(.name)}' templates.json templates.addition.json > templates.merged.json
+	jq -n '{ templates: [ inputs.templates ] | add | unique_by([.name, .landscape])}' templates.json templates.addition.json > templates.merged.json
 
 	# Taking a backup of the templates.json in any case
 	ssh root@$1 "cp /usr/share/remarkable/templates/templates.json /usr/share/remarkable/templates/templates.backup.json"
